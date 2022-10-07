@@ -4,8 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // ADO.NET Puro para conexão ao banco
-
         const string connectionString 
             = "Server=localhost,1433;Database=NOME_DATABASE;User ID=ID_CONEXAO;Password=PASSWORD;Trusted_Connection=False; TrustServerCertificate=True;";
 
