@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         const string connectionString 
-            = "Server=localhost,1433;Database=NOME_DATABASE;User ID=ID_CONEXAO;Password=PASSWORD;Trusted_Connection=False; TrustServerCertificate=True;";
+            = "Server=localhost,1433;Database=balta;User ID=sa;Password=xptoR@11drigo;Trusted_Connection=False; TrustServerCertificate=True;";
 
         using (var connection = new SqlConnection(connectionString))
         {
